@@ -1,13 +1,12 @@
 //
-// File:   assignment1.cpp
-// Author: <PUT YOUR NAME HERE>
+// File:   assignment1_1.cpp
+// Author: Tucker King
 // Purpose:
-// Illustrate some of the bad thins that can happen with
-// pointers
+// Create two C++ classes for the adjacency list and
+// adjacency matrix representations of a graph.
 //
 #include <iostream>
 using namespace std;
-
 
 int main() {
   // Put your code here.
