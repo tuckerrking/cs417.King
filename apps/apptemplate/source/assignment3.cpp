@@ -16,6 +16,7 @@ int get_rand(int num_1= 1, num_2= 6)
                                               std::chrono::high_resolution_clock::now().time_since_epoch()).count());
  std::mt19937 gen(seed);
  std::uniform_int_distribution<unsigned> distribution(num_1, num_2);
+ 
  return distribution(gen);
 }
 
